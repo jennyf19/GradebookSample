@@ -10,6 +10,15 @@ namespace GradebookSample
     {
         static void Main(string[] args)
         {
+            GradeBook myGradeBook = new GradeBook("Jenny");
+
+            myGradeBook.DisplayMessage();
+
+            myGradeBook.InputGrades();
+
+            myGradeBook.DisplayGradeReport();
+
+            Console.ReadLine();
         }
     }
 }
