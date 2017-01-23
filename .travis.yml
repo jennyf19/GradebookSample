@@ -1,5 +1,1 @@
 language: c#
-rvm:
-- 2.2
-- c#
-- rbx-2
