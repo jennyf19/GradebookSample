@@ -1,1 +1,11 @@
-language: c#
+deploy:
+    #test pypi
+    provider: pypi
+    distributions: sdist
+    server: https://testpypi.python.org/pypi
+    user: "Catnado"
+    password: "SnHlOiE63PnAPDn4eXv6qQ9tA8K6nkwzXOeUWoWz80TWMyeoI918olc5oHdHMCnY7OiIb/NUaPXFztegChOTIdioh4zNjbolyeoKWDAX9A3mrHFg4OAFSINrpFBaJQW09YTByY0QPADYXjdSrTdIcmNeBtN9rM2UZJmzFj2eu13y9rkEgA+ntRxwRqyzLeRseoybM/UKTjz9/pa23W0ApZ5pKhm9csf6uEtBZT1Njq3Eev0/BUuGsj33tO7Uivh22NdAzu1423KLNzVgn//Spb9Vkr2875HwpYc4lUy/89IFMgWB0ODOsZCgzHEVrVuDECSgZP4HZ1Iq2n8g4cfxiY9V63logvxMqfRFChIxnlI/GNgFxYb8MUUl727wBbUnESYt8iaHJmqnWvf8y8qFP6HEM0IKYjnOeqNtw5gWUqBXaUraF8IDQYl3LmXpvoTRSvfslcutLdJGAKLUuwcX/7Y5O87B85CWs2xKw6DOSjuKZVfH+VHqTnjTDDX72rdg6Lyb/PQuUqytIrqLBbmF1DwTnX3+ynRFYGXMjAiW/1OgND8uZgO2dqQWuvFuM2+GinJGtBZ+9nXMoGQZbYd0LEadWTwB7mULO5LJD3xLkI2kumboksn2v601npvOHbBQLsl77TXn2UKZtn14F8N4/1p4BAdlyNPZdm2/VB4Q+7o="
+    on:
+        branch: master
+        tags: true
+        
